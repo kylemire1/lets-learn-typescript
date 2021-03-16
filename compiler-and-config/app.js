@@ -1,4 +1,7 @@
 "use strict";
 // tsc --init
 // tsc -w
-var userName = "mary";
+var button = document.querySelector("button");
+button.addEventListener("click", function () {
+    console.log("Clicked");
+});
